@@ -1,0 +1,29 @@
+.button{
+    color:$fc_3;
+    background-color: #403432;
+    border-radius: 0;
+    border:none;
+    transition:  all 0.2s linear;
+   cursor: pointer;
+   
+    &.busket{
+        background-color: #5B3A32;
+        padding: 14px 9px 13px 11px;
+        position: relative;
+    }
+    &.forSale{
+        background-color: #382E2B;
+        padding: 14px 30px 13px 31px;
+    }
+    &.pending{
+        background-color: #382e2b60;
+        padding: 14px 10px 13px 10px;
+    }
+    &:hover{
+        background-color: #776763;
+    }
+    &:disabled{
+        background-color: #C1B4B1;
+    }
+
+}
